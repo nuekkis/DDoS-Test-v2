@@ -1,0 +1,14 @@
+{
+  "name": "url-request-tester",
+  "version": "1.0.0",
+  "description": "A tool to send GET requests to URLs at configured intervals with optional parallel execution",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "nuekkis",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

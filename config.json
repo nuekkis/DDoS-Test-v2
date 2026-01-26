@@ -1,0 +1,12 @@
+{
+  "timeout": 10000,
+  "waiting_interval": 20,
+
+  "multiple_requests": false,
+  "multiple_count": 5,
+
+  "load": true,
+  "load_size": 102400,
+   
+  "aggressive_mode": true
+}
