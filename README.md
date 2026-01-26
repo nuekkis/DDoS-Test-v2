@@ -134,12 +134,14 @@ Konfigürasyon:
 ✅ İstek Gönderildi: 1. İstek | [200]: Success | 245ms
 ✅ İstek Gönderildi: 2. İstek | [200]: Success | 198ms
 ...
+```
 
 ## İstatistik Örneği
 
 Ctrl+C ile durdurulduğunda gösterilen rapor:
 
 ```
+
 📊 === İSTEK İSTATİSTİKLERİ ===
 ⏱️  Çalışma Süresi: 1 saat, 23 dakika, 45 saniye
 📤 Toplam İstek: 150
@@ -165,5 +167,6 @@ Ctrl+C ile durdurulduğunda gösterilen rapor:
 - Aggressive mode'da çoklu process kullanılır, sistem kaynaklarını yoğun tüketir
 
 ## Gereksinimler
+
 
 - Node.js >= 14.0.0
