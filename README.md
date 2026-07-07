@@ -72,48 +72,6 @@ node start.js https://www.google.com
 node start.js http://example.com
 ```
 
-## Modüller
-
-### start.js
-**Ana uygulama giriş noktası**
-- Uygulamayı başlatır
-- Signal handler'ları ayarlar
-- Diğer modülleri orchestrate eder
-
-### app.js
-**Uygulama başlatma mantığı**
-- Konfigürasyon yükleme
-- Request handler oluşturma
-- URL doğrulama ve ayarlama
-
-### loop.js
-**Ana döngü yönetimi**
-- Sürekli istek gönderme döngüsü
-- Timer yönetimi
-- Döngü başlatma/durdurma
-
-### stats.js
-**İstatistik hesaplamaları**
-- İstek istatistiklerini takip eder
-- Başarı/hata oranları hesaplar
-- Raporlama işlevselliği
-
-### logger.js
-**Loglama yardımcıları**
-- Farklı türde log mesajları
-- Tutarlı format sağlama
-
-### settings.js
-**Konfigürasyon yönetimi**
-- config.json dosyasını yükler
-- Ayarları doğrular ve yönetir
-
-### request.js
-**HTTP istek işlemleri**
-- HTTP/HTTPS istekleri gönderir
-- Response'ları işler
-- İstatistik toplama
-
 ## Çıktı Örneği
 
 ```
